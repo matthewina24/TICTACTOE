@@ -1,0 +1,55 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href ="style/style.css">
+
+<script type="text/javascript" src ="script.js"></script>
+
+<title>Tic Tac Toe- Patrick Voth/ Matthew Hui</title>
+</head>
+<body onchange="change(event)">
+	
+	<h3>Tic Tac Toe: Chinese Zodiac Style</h3>
+	<div class = "row">
+	<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	</div>
+		<div class = "row">
+	<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	</div>
+		<div class = "row">
+	<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	</div>
+	<div class = "dog">
+	<img id="x1" class ="dog" src="images/Dog.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+		<img id="x2" class = "dog" src="images/Dog.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+		<img id="x3" class = "dog" src="images/Dog.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+		<img id="x4" class = "dog" src="images/Dog.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+		<img id="x5" class = "dog" src="images/Dog.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+	</div>
+		
+	<div class = "dragon">
+	<img id="o1" class = "dragon" src="images/Dragon.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+		<img id="o2" class = "dragon" src="images/Dragon.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+		<img id="o3" class = "dragon" src="images/Dragon.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+		<img id="o4" class = "dragon" src="images/Dragon.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+		<img id="o5" class = "dragon" src="images/Dragon.png" draggable="true" 
+		ondragstart="drag(event)" ondragend="gamelogic(event)" width="75" height="75" />
+		</div></br>
+	<p>Instructions: Drag the X and O images into the tic-tac-toe board:</p>
+</body>
+</html>
